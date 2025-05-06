@@ -1,0 +1,27 @@
+#app{
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#progress-bar{
+    width: 100%;
+    background-color: #e96363;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 0;
+    transition: width 1s linear; /* para suavizar */
+}
+
+#pause-play{
+    color: #892e2e69;
+    display: block;
+}
+
+#tomato{
+    transition: transform 0.3s ease;
+}
