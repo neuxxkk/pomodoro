@@ -1,7 +1,7 @@
 var state = "foucus"; // Default state 'foucus' or 'break'
 
-const foucusTime = parseInt(window.prompt("Enter focus time in minutes:", "25")) * 60; // Total time in seconds
-const breakTime = parseInt(window.prompt("Enter focus time in minutes:", "5")) * 60; // Break time in seconds
+const foucusTime = parseInt(window.prompt("Digite o tempo de concentração em minutos:", "25")) * 60; // Total time in seconds
+const breakTime = parseInt(window.prompt("Digite o tempo de descanso em minutos:", "5")) * 60; // Break time in seconds
 
 var currentTime = foucusTime; // Current time in seconds
 var counterInterval = currentTime; // Elapsed time in seconds
